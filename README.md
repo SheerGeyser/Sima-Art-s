@@ -7,13 +7,25 @@
 
 <br>
 <br>
-<details>
-  <summary>Instruction in English</summary>
+# Примеры для проверки
 
+```
+фигуры: 5984239 / 4241541 / 7664461 / 7696454
+на стену: 9001837 / 5439634
+```
+```
+5984239,4241541,7664461,7696454
+```
+```
+5984239 4241541 7664461 7696454
+```
+```
+5984239
+4241541
+7664461
+7696454
+```
+```
+Привет нужно взять 5984239 и поставить его на 4241541 и рядом с ним 7664461, 7696454
+```
 
-  # How to use
-Select the text that contains the articles you need, then press `Ctrl + Shift + F`
-
-# Installation
-Download the repository, unzip and open the `chrome://extensions` folder in your browser, then click on the `Download extended extension` button and select only this 
-</details>
