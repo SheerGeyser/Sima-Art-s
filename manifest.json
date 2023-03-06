@@ -1,0 +1,25 @@
+{
+  "name": "!Sima Art's",
+  "description": "Расширение для быстрого открытия списка артикулов в браузере",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {},
+  "icons": {
+    "16": "/icon/logo-16.png",
+    "48": "/icon/logo-48.png",
+    "128": "/icon/logo-128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "Command+Shift+F"
+      }
+    }
+  }
+}
